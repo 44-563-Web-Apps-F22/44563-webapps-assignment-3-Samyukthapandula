@@ -42,7 +42,7 @@
     </tr>
     <tr>
         <td>Mumbai</td>
-        <td>Gate way of Indiasss</td>
+        <td>Gate way of India</td>
         <td>2 hours</td>
     </tr>
     <tr>
@@ -61,5 +61,22 @@
         <td>3 hours</td>
     </tr>
 </table>
+<hr>
+<h4>Displaying code</h4>
+<q>Exponentiation in Sass</q>
+<a href="https://stackoverflow.com/questions/9549525/exponentiation-in-sass">stack overflow link</a>
+<pre>
+    @function pow($number, $exponent) {
+        $value: 1;
+      
+        @if $exponent > 0 {
+          @for $i from 1 through $exponent {
+            $value: $value * $number;
+          }
+        }
+      
+        @return $value;
+      }
+</pre>
 </body>
 </html>
